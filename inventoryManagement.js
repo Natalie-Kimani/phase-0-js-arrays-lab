@@ -1,6 +1,22 @@
 // Write your code here
 
+const products =["Laptop, Phone, Headphones, Monitor"]
 
+function logFirstProduct(){
+  console.log(products[0])
+}
+
+function updateProductName(index, productName){
+  products[index] = productName
+}
+
+function removeLastProduct(){
+  products.pop()
+}
+
+function addProduct(productName){
+  products.push(productName)
+}
 
 // Export the necessary parts for testing
 module.exports = {
